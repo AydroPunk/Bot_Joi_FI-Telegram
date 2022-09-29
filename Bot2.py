@@ -25,7 +25,7 @@ def start(update, context):
 
 
 if __name__ == '__main__':
-    updater = Updater(token='5738833071:AAEjsUyxfn0e5EuvpAJZo2_xLi_e3zR43zM', use_context=True)
+    updater = Updater(token='YOUR_TOKEN', use_context=True)
     dp = updater.dispatcher
 
     dp.add_handler(CommandHandler('start', start))
